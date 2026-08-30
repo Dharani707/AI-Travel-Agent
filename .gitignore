@@ -1,0 +1,81 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments / secrets
+# Keep .env.example (template with placeholder values), ignore all real env files
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv.bak/
+envs/
+
+# Packaging / build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Test / coverage outputs
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+,coverage.py
+
+# Type checker caches (Pyrefly / pyright / pyre)
+.pyre/
+.pytype/
+.pyright/
+.pytyped/
+__pypackages__/
+
+# Logs
+logs/
+*.log
+
+# Local/state runtime artifacts (LangGraph checkpointer DBs, etc.)
+*.db
+*.sqlite
+*.sqlite3
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.code-workspace
+.vs/
+*.suo
+*.user
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Shell / REPL history
+.python_history
+.history/
+
+# uv cache (only if a local cache lands inside the repo)
+.uv/
+uv.lock.tmp
